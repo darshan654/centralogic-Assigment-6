@@ -17,9 +17,11 @@ function App() {
   }, []);
 
   return (
-    <div className="bg-white m-12 p-6 border-2 border-black rounded-lg shadow-lg">
-      <h1 className="text-4xl font-bold mb-4 text-center">Currency Converter</h1>
-      <CurrencyRow name=" INDIA amount" currencyOptions={currencyOptions} />
+    <div className="bg-gradient-to-r from-blue-500 to-green-500 min-h-screen flex items-center justify-center">
+      <div className="bg-white m-12 p-6 border-2 border-black rounded-lg shadow-lg">
+        <h1 className="text-4xl font-bold mb-4 text-center">Currency Converter</h1>
+        <CurrencyRow name="INDIA amount" currencyOptions={currencyOptions} />
+      </div>
     </div>
   );
 }
